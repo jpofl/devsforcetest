@@ -2,7 +2,8 @@ João Lima
 
 [![N|Solid](https://api.travis-ci.org/christian-draeger/basic-selenium-project.svg?branch=master)](https://travis-ci.org/christian-draeger/basic-selenium-project)
 
-
+       
+       
 # basic-selenium-project
 
 This project is written in java and will serve an example of implementing a Selenium test project with Selenium3 and Maven.
@@ -51,7 +52,7 @@ it can be used the other way around as well e.g. if you want a certain test just
 ```
 The browser require option is working equivalent to the skip option and also supports list of browsers
 
-#### @BrowserDimension
+#### @BrowserDimension 
 If you want to test a responsive website it can be handy to set the browsers to some specific viewports.
 To configure your breakpoints just edit them in the [test_data.properties](https://github.com/christian-draeger/basic-selenium-project/blob/master/src/test/resources/test_data.properties)
 

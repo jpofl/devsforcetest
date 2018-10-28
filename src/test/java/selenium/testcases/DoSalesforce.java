@@ -23,12 +23,15 @@ import selenium.utils.annotations.browser.BrowserDimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.By;
 
-@BrowserDimension(XLARGE)
-@Browser(skip = { INTERNET_EXPLORER, EDGE, PHANTOMJS })
+import io.github.bonigarcia.wdm.PhantomJsDriverManager;
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class DoSalesforce extends SeleniumTestWrapper {
 
 	@Before
-	public void setup() {}
+	public void setup() {
+		PhantomJsDriverManager.getInstance().version("2.1.1").setup();
+	}
 
 	@Test
 	public void verifyCreateLead() {
