@@ -31,7 +31,7 @@ public class DoSalesforce extends SeleniumTestWrapper {
 
 	@Before
 	public void setup() {
-		PhantomJsDriverManager.getInstance().setup("2.1.1");
+		
 	}
 
 	@Test
