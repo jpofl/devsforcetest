@@ -24,6 +24,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.By;
 
 import io.github.bonigarcia.wdm.PhantomJsDriverManager;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 @BrowserDimension(XLARGE)
 @Browser(skip = { INTERNET_EXPLORER, EDGE, PHANTOMJS })
@@ -31,7 +32,7 @@ public class DoSalesforce extends SeleniumTestWrapper {
 
 	@Before
 	public void setup() {
-		
+		WebDriverManager.phantomjs(CHROME).version("2.1.1");
 	}
 
 	@Test
