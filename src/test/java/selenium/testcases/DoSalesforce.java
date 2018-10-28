@@ -21,6 +21,7 @@ import selenium.utils.annotations.browser.Browser;
 import selenium.utils.annotations.browser.BrowserDimension;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.By;
 
 @BrowserDimension(XLARGE)
 @Browser(skip = { INTERNET_EXPLORER, EDGE, PHANTOMJS })
@@ -48,6 +49,6 @@ public class DoSalesforce extends SeleniumTestWrapper {
     driver.findElement(By.id("lea3")).sendKeys("Jedi");
     driver.findElement(By.name("save")).click();
 
-    
+
 	}
 }
