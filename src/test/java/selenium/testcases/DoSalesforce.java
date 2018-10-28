@@ -32,7 +32,8 @@ public class DoSalesforce extends SeleniumTestWrapper {
 
 	@Before
 	public void setup() {
-		WebDriverManager.phantomjs(CHROME).version("2.1.1");
+		WebDriverManager.phantomjs().version("2.1.1");
+		WebDriverManager.phantomjs().setup();
 	}
 
 	@Test
