@@ -1,6 +1,8 @@
 [![N|Solid](https://api.travis-ci.org/christian-draeger/basic-selenium-project.svg?branch=master)](https://travis-ci.org/christian-draeger/basic-selenium-project)
 
+
 # basic-selenium-project
+
 This project is written in java and will serve an example of implementing a Selenium test project with Selenium3 and Maven.
 Everything is set up and tests can be added straight away.
 Used Testrunner is the Failsafe plugin.
