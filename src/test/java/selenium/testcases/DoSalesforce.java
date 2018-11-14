@@ -41,7 +41,7 @@ public class DoSalesforce extends SeleniumTestWrapper {
     driver.findElement(By.id("username")).clear();
     driver.findElement(By.id("username")).sendKeys("jpofl2@gmail.com");
     driver.findElement(By.id("password")).clear();
-    driver.findElement(By.id("password")).sendKeys("1qaz2wsx");
+    driver.findElement(By.id("password")).sendKeys("1qaz2wsxA");
     driver.findElement(By.id("Login")).click();
     driver.findElement(By.linkText("Leads")).click();
     driver.findElement(By.name("new")).click();
